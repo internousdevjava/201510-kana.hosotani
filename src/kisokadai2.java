@@ -7,20 +7,20 @@
 	            int number=0;
 	                InputStreamReader isr = new InputStreamReader(System.in);
 	                BufferedReader br = new BufferedReader(isr);
-                    System.out.println("1‚©‚ç100‚Ü‚Å‚Ì”š‚ğ“ü‚ê‚Ä‚Ë");
+                    System.out.println("1ï¿½ï¿½ï¿½ï¿½100ï¿½Ü‚Å‚Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½");
 	                    for(number=0;number!=answer;){
 	                    	try{
-	                      System.out.print("”š‚ğ“ü‚ê‚Ä‚Ë= ");
+	                      System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½= ");
 		                  number=Integer.parseInt(br.readLine());
 	                      if(number<answer){
-	                        System.out.println("‚à‚Á‚Æã‚¾‚æB");
+	                        System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Æã‚¾ï¿½ï¿½B");
 	                      }else if(number>answer){
-	                        System.out.println("‚à‚Á‚Æ‰º‚¾‚æB");
+	                        System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Æ‰ï¿½ï¿½ï¿½ï¿½ï¿½B");
 	                      }else if(number==answer){
-	                    	System.out.println("³‰ğI‚¨‚ß‚Å‚Æ‚¤I");
+	                    	System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Iï¿½ï¿½ï¿½ß‚Å‚Æ‚ï¿½ï¿½I");
 	                      }
 	                      }catch(Exception e){
-	  	                	System.out.println("Error@”š‚ğ“ü‚ê‚Ä‚Ë");
+	  	                	System.out.println("Errorï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½");
 	  	                  }
 	                    }
 	        }

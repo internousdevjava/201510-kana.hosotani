@@ -6,8 +6,8 @@ public class KisoKadai1
         	int a=0;
             int b=0;
         	while(a<1 | a>100 | b<1 | b>100){
-        	System.out.println("1~100‚Ü‚Å‚Ì”Žš‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢");
-                System.out.print("yŽ²‚ÌÅ‘å’la‚ð“ü—Í");
+        	System.out.println("1~100ï¿½Ü‚Å‚Ìï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+                System.out.print("yï¿½ï¿½ï¿½ÌÅ‘ï¿½laï¿½ï¿½ï¿½ï¿½Íï¿½");
                 InputStreamReader isr = new InputStreamReader(System.in);
                 BufferedReader br = new BufferedReader(isr);
                 try{
@@ -16,7 +16,7 @@ public class KisoKadai1
                 }catch(Exception e){
                         a = 0;
                 }
-                System.out.print("xŽ²‚ÌÅ‘å’lb‚ð“ü—Í");
+                System.out.print("xï¿½ï¿½ï¿½ÌÅ‘ï¿½lbï¿½ï¿½ï¿½ï¿½Íï¿½");
                 InputStreamReader isrb = new InputStreamReader(System.in);
                 BufferedReader brb = new BufferedReader(isrb);
                 try{
@@ -26,7 +26,7 @@ public class KisoKadai1
                         b = 0;
                 }
                 }
-                //•\‚ÌƒvƒƒOƒ‰ƒ€
+                //ï¿½\ï¿½Ìƒvï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½
                 int y;
                 int x;
                 for(y=a;y>0;y--){

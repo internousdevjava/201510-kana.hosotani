@@ -2,12 +2,12 @@ import java.io.*;
 public class kisokadai3 {
 	public static void main(String[] args)throws IOException{
 		
-		System.out.println("              ƒƒjƒ…[‚ğ•\¦‚µ‚Ü‚·     "); 
-		System.out.println("              ”Ô†‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢     "); 
-		System.out.println("               1  ƒtƒ@ƒCƒ‹‚Ìì¬"); 
-		System.out.println("               2  ƒtƒ@ƒCƒ‹‚Ì‘‚«‚İ"); 
-		System.out.println("               3  ƒtƒ@ƒCƒ‹‚Ì“Ç‚İ‚İ"); 
-		System.out.println("               4  I—¹"); 
+		System.out.println("              ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚’è¡¨ç¤ºã—ã¾ã™"); 
+		System.out.println("              ç•ªå·ã‚’é¸æŠã—ã¦ãã ã•ã„"); 
+		System.out.println("              ï¼‘ã€€ãƒ•ã‚¡ã‚¤ãƒ«ã®ä½œæˆ"); 
+		System.out.println("              ï¼’ã€€ãƒ•ã‚¡ã‚¤ãƒ«ã®æ›¸ãè¾¼ã¿"); 
+		System.out.println("              ï¼“ã€€ãƒ•ã‚¡ã‚¤ãƒ«ã®èª­ã¿è¾¼ã¿"); 
+		System.out.println("              ï¼”ã€€çµ‚äº†"); 
 		System.out.println(" "); 
 		
 		int a; 
@@ -21,30 +21,30 @@ public class kisokadai3 {
 		} 
 
 		if(a==1){
-		System.out.println("ƒtƒ@ƒCƒ‹‚ğì¬‚µ‚Ü‚·");
-		System.out.println("ƒtƒ@ƒCƒ‹–¼‚ğŒˆ‚ß‚Ä‚­‚¾‚³‚¢");
+		System.out.println("ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä½œæˆã—ã¾ã™");
+		System.out.println("ãƒ•ã‚¡ã‚¤ãƒ«åã‚’æ±ºã‚ã¦ãã ã•ã„");
 		
 			String str1 = br.readLine(); 
 			File newfile1 = new File("c:\\tmp\\"+str1); 
 			newfile1.createNewFile(); 
 		}else if(a==2){
-			System.out.println("ƒtƒ@ƒCƒ‹‚É‘‚«‚İ‚ğ‚µ‚Ü‚·"); 
-			System.out.println("ƒtƒ@ƒCƒ‹‚ğ‘I‘ğ‚µ‚Ä‚­‚¾‚³‚¢"); 
+			System.out.println("ãƒ•ã‚¡ã‚¤ãƒ«ã«æ›¸ãè¾¼ã¿ã—ã¾ã™"); 
+			System.out.println("ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é¸æŠã—ã¦ãã ã•ã„"); 
 			String str2 = br.readLine(); 
 			
 			File newfile2 = new File(str2); 
 			FileWriter filewriter2 = new FileWriter(newfile2); 
 			
 			newfile2.exists(); 
-			System.out.print("“ü—Í‚µ‚Ä‚­‚¾‚³‚¢   Ë  "); 
+			System.out.print("å†…å®¹ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ï¼š"); 
 			
 			
 			String str3 = br.readLine(); 
 			System.out.println(str3); 
 			filewriter2.write(str3); 
-			System.out.println("ƒtƒ@ƒCƒ‹‚É‘‚«‚İ‚µ‚Ü‚µ‚½"); 
+			System.out.println("ãƒ•ã‚¡ã‚¤ãƒ«ã¸ã®æ›¸ãè¾¼ã¿ãŒå®Œäº†ã—ã¾ã—ãŸ"); 
 			System.out.println(" "); 
-			System.out.println("Enter‚Åƒƒjƒ…[‚É–ß‚è‚Ü‚·"); 
+			System.out.println("Enterã§ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã«æˆ»ã‚Šã¾ã™"); 
 			filewriter2.close(); 
 
 		}
